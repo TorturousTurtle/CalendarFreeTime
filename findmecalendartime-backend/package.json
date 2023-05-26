@@ -1,0 +1,14 @@
+{
+  "name": "findmecalendartime-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0"
+  }
+}
