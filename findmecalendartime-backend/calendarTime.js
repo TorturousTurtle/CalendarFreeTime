@@ -1,7 +1,6 @@
 import { google } from 'googleapis';
-import { credentials } from './stellar-market-385817-512cc8dfa90b.js';
+import { credentials } from './service-account';
 
-const SERVICE_ACCOUNT_FILE = 'stellar-market-385817-512cc8dfa90b.json';
 const TIMEZONE = 'US/Eastern';
 
 function convert_date_format(date_string) {
